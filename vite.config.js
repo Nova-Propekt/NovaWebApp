@@ -9,7 +9,7 @@ export default defineConfig({
     plugins: [vue()],
     resolve: {
         alias: {
-            '@': fileURLToPath(new URL('./src',
+            '@': fileURLToPath(new URL('./NovaWebApp/src',
                 import.meta.url))
         }
     }
