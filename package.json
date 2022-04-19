@@ -1,22 +1,16 @@
 {
-  "name": "novawebapp",
-  "version": "1.0.0",
-  "description": "Nova Prospekt's Webapp",
-  "main": "index.js",
+  "name": "nova-prospekt",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Overlord-Crow/NovaWebApp.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Overlord-Crow/NovaWebApp/issues"
-  },
-  "homepage": "https://github.com/Overlord-Crow/NovaWebApp#readme",
   "dependencies": {
-    "vue": "^3.2.33"
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vite": "^2.9.1"
   }
 }
