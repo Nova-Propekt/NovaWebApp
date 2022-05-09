@@ -12,17 +12,62 @@
         }
         
         body {
-            background-color: #434c5e;
+            background-color: #232323;
             opacity: 1;
             size: 100;
             min-height: 100%;
-            background: linear-gradient(135deg, #8fbcbb 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #b48ead 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #444cf755 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #444cf7 25%, #5e81ac 25%) 0px 0/ 80px 80px;
+            background: linear-gradient(135deg, #7951A8 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #69369E 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #7951A8 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #69369E 25%, #60279c 25%) 0px 0/ 80px 80px;
         }
     </style>
 </head>
 
 <body>
-    <h1>hi</h1>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <h1 class="navbar-item">
+                Nova Prospekt
+            </h1>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+              Home
+            </a>
+
+                <a class="navbar-item">
+              Documentation
+            </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                More
+              </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                  About
+                </a>
+                        <a class="navbar-item">
+                  Jobs
+                </a>
+                        <a class="navbar-item">
+                  Contact
+                </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                  Report an issue
+                </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 </body>
 
 </html>
